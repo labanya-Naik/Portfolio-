@@ -1,0 +1,228 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href=".css">
+  <link rel="stylesheet" href=".js">
+
+</head>
+
+<body>
+
+  <header>
+    <nav id="navbar">
+      <div class="hamburger" id="hamburger">☰</div>
+      <div class="logo">LN.</div>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+
+
+          <a href="#">Social Media ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.instagram.com/lx_labanya_naik_?igsh=ajhvcDUzbTc3ejdm" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+            <li><a href="https://github.com/labanya-Naik" target="_blank"><i class="bi bi-github"></i> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/labanya-naik-388453362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="sidebar">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="toggle-dropdown">Social Media ▾</a>
+          <ul class="dropdown-menu"> 
+             <li><a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> GitHub</a></li>
+            <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+           
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>Hello, I'm <span>Labany Naik</span></h1>
+        <h2 class="typing"></h2>
+        <p>I create modern, responsive, and user-friendly websites.</p>
+        <a href="Labanya Naik Resume (1).pdf" download="Labanya Naik Resume" class="btn">Download Resume</a>
+      </div>
+      <div class="hero-img">
+        <img src="Labanya.jpg" alt="Profile Picture">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-logo"><img src="html.png"
+          alt="HTML5">
+        <p>HTML</p>
+      </div>
+      <div class="skill-logo"><img src="css.png"
+          alt="CSS3">
+        <p>CSS</p>
+      </div>
+
+      <div class="skill-logo"><img src="javascript.png"
+          alt="javascript">
+        <p>Javascript</p>
+      </div>
+
+      <div class="skill-logo"><img
+          src="java.png" alt="java">
+        <p>Java</p>
+      </div>
+      <div class="skill-logo"><img src="react.png"
+          alt="React">
+        <p>React</p>
+      </div>
+
+      <div class="skill-logo"><img src="node.png"
+          alt="Node">
+        <p>Node</p>
+ </div>
+        <div class="skill-logo"><img src="mongodb.png"
+          alt="Node">
+        <p>MongoDB</p>
+      </div>
+
+      <div class="skill-logo"><img src="sql.png"
+          alt="Node">
+        <p>Sql</p>
+      </div>
+     
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+
+
+      <div class="project-card"><img src="FoodSearch.png" alt="Project 1">
+        <h3>Food Search</h3>
+        <p>A responsive food-search web app built with html,css and react.js features include instant search,category filter and clean mobile-friendly UI.User can explor dishes,view detalis and save favorites with a smooth fast experirnce</p>
+        <a href="#" class="btn">View Details</a>
+      </div>
+
+
+      <div class="project-card"><img src="portfolio.png" alt="Project 2">
+        <h3>Portfolio</h3>
+        <p>A modern responsive portfolio website built using HTML,CSS and javascript showcases project,skills and contact details with an interactive UI. smooth animation and a mobile-friendly design</p><a href="#" class="btn">View Details</a>
+      </div>
+
+
+      <div class="project-card"><img src="e-commerce.png" alt="Project 3">
+        <h3>E-commerce Website</h3>
+        <p>A fully responsive e-commerce web app built with HTML,CSS and react.js</p><a href="#" class="btn">View Details</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" action="https://formspree.io/f/manpnvrj" method="POST">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Labanya Naik | All Rights Reserved</p>
+  </footer>
+
+  <!-- Scroll To Top -->
+  <button id="scrollTopBtn">⬆</button>
+
+  
+</body>
+<script>
+    // Sticky navbar & scroll-top
+    const navbar = document.getElementById("navbar");
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+    window.addEventListener("scroll", () => {
+      navbar.classList.toggle("scrolled", window.scrollY > 50);
+      scrollTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+    });
+    scrollTopBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+    // Contact Form
+    document.getElementById("contactForm").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const formData = new FormData(this);
+      const response = await fetch(this.action, { method: this.method, body: formData, headers: { 'Accept': 'application/json' } });
+      if (response.ok) { alert("Message sent successfully!"); this.reset(); }
+      else { alert("Oops! Something went wrong. Please try again."); }
+    });
+
+    // Hero typing effect
+    const typingText = ["Web Developer", "UI/UX Designer"];
+    let i = 0, j = 0, currentText = "", isDeleting = false;
+    const speed = 150;
+    const typingElement = document.querySelector(".typing");
+    function type() {
+      if (i >= typingText.length) i = 0;
+      const fullText = typingText[i];
+      currentText = isDeleting ? fullText.substring(0, j--) : fullText.substring(0, j++);
+      typingElement.textContent = currentText;
+      if (!isDeleting && j === fullText.length + 1) { isDeleting = true; setTimeout(type, 1000); }
+      else if (isDeleting && j === 0) { isDeleting = false; i++; setTimeout(type, 500); }
+      else { setTimeout(type, isDeleting ? speed / 2 : speed); }
+    }
+    document.addEventListener("DOMContentLoaded", type);
+
+    // Sidebar
+    const hamburger = document.getElementById("hamburger");
+    const sidebar = document.getElementById("sidebar");
+    const closeBtn = document.getElementById("closeBtn");
+    hamburger.addEventListener("click", () => sidebar.style.left = "0");
+    closeBtn.addEventListener("click", () => sidebar.style.left = "-250px");
+
+    // Close sidebar on normal link click (exclude dropdown toggle & dropdown links)
+    document.querySelectorAll("#sidebar ul li a").forEach(link => {
+      if (!link.classList.contains("toggle-dropdown") && !link.closest(".dropdown-menu")) {
+        link.addEventListener("click", () => sidebar.style.left = "-250px");
+      }
+    });
+
+    // Toggle sidebar dropdown
+    document.querySelectorAll("#sidebar .toggle-dropdown").forEach(btn => {
+      btn.addEventListener("click", e => {
+        e.preventDefault();
+        btn.parentElement.classList.toggle("open");
+      });
+    });
+
+    window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+  </script>
+</html>
